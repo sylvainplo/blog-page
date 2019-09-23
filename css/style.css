@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.clearfix:before {
+    content: '';
+    display: table;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+@media only screen and (min-width: 768px) {
+    .wrapper {
+        width: 750px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .wrapper {
+        width: 970px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .wrapper {
+        width: 1170px;
+    }
+}
